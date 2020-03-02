@@ -14,12 +14,12 @@ public class Stopwatch implements AutoCloseable {
         this(System.out);
     }
 
-    public double step () {
-    return ( System . nanoTime () - nanos )/1_000_000.0;
+    public double step() {
+        return (System.nanoTime() - nanos) / 1_000_000.0;
     }
 
     @Override
     public void close() {
-        out.printf(" %5.6 f\n", step());
+        // out.printf("%5.6f\n", step());
     }
 }
