@@ -11,3 +11,4 @@ The program will load the files and execute sorting for the following algorithms
 - MergeSort
 - TrieSort
 
+Additionally it will print out the duration and the nano seconds used to sort every word. 
